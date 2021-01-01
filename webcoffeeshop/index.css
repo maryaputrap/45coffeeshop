@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Roboto'; src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Nova'; src: url(fonts/Nova/NovaFlat-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Goldman'; src: url(fonts/goldman/Goldman-Regular.ttf);
+}
+
+.navbar {
+    padding-top: 2em;
+}
+
+.nav-link {
+    font-family: 'Roboto';
+    margin-left: 1em;
+    color: red !important;
+}
+
+.nav-link:hover {
+    background: red;
+    color: white !important;
+}
+
+.produk {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Goldman';
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+    width: 250px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+
+.card-img-top2 {
+    width: 140px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-bottom: 35px;
+    margin-right: auto;
+}
+
+.card-img-top3 {
+    width: 130px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Goldman';
+}
+
+.card-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Nova';
+}
+
+.btn {
+    background-color: #682B16;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    color: white;
+    border-radius: 0%;
+}
+
+.btn:hover {
+    background-color: #d8ac33;
+    color: white;
+}
+
+.card-group {
+    margin-top: 100px;
+}
+
+.row {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.card-text1 {
+    font-family: 'Goldman';
+    font-size: 25px;
+    margin-top: 25px;
+    color: white;
+}
+
+.card-text2 {
+    font-family: 'Goldman';
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.carousel-inner {
+    margin-top: 30px;
+}
+
+.blog {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.blog-title {
+    font-family: 'Nova';
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-text {
+    font-family: 'Nova';
+    font-size: 12px;
+    text-align: left;
+}
+
+.continue {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+
+.continue:hover {
+	color: red;
+	margin-left:10px;
+}
+
+.card-img-top4 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tags {
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 35px 0 35px 0;
+}
+
+.fa {
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+}
+
+.fa:hover {
+    color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+    color: black;
+}
+
+/* instagram */
+.fa-instagram {
+    color: black;
+}
+
+/* google */
+.fa-google {
+    color: black;
+}
+
+/* whatsapp */
+.fa-whatsapp {
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px 0 35px 0;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-family: 'Goldman';
+}
